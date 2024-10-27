@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/db072459dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/realeses/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK10YPAYjqt085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Tienda EYG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda EYG</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#container-items">Productos</a></li>
+                <li><a href="#formulario-contacto">Contacto</a></li>
+                <li><a href="./login.html">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--TITULO PARA PRODUCTOS-->
+    <h1>PRODUCTOS</h1>
+    
+    <div class="container-items">
+        
+        <div class="item">
+            <figure>
+                <img src="./img/crucial2.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Disco Crucial 250 GB</h2>
+                <p class="price">BS. 70</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="./img/webcam-xiaomi.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Web Cam Xiaomi</h2>
+                <p class="price">BS. 50</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="./img/raton-logitech-G502-hero.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Raton Logitech G502 HERO</h2>
+                <p class="price">BS. 380</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="./img/raton-logitech-G703-lightspeed.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Raton Logitech G703 Lightspeed</h2>
+                <p class="price">BS. 350</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="./img/teclado-logitech-mk270.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Teclado Logitech Combo MK270</h2>
+                <p class="price">BS. 120</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="./img/procesador-intel-i7-9700.jpg" alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>Procesador Intel Core i7-9700</h2>
+                <p class="price">BS. 2100</p>
+            </div>
+        </div>
+    </div>
+    <div id="formulario-contacto">
+        <form action="https://formsubmit.co/andresespinal2013@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <label for="name">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                <input class="btn" type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/chap_5/">    
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
